@@ -1,4 +1,4 @@
-FILEPATH = "todo.txt"
+FILEPATH = "todos.txt"
 def getCurrentList(filepath = FILEPATH):
     with open(filepath, 'r') as todo_file:
         getCurrentList = todo_file.readlines()
